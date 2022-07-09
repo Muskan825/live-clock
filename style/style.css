@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+}
+#time{
+    font-size: 100px;
+    padding: 30px;
+}
+#greeting{
+    margin-bottom: 5px;
+    font-size: 35px;
+    padding: 20px;
+}
+#name{
+    margin-bottom: 3px;
+    font-size: 50px;
+    opacity: 0.5;
+    padding: 30px;
+}
+#date{
+    font-size: 30px;
+}
